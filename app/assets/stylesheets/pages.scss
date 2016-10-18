@@ -1,0 +1,123 @@
+@font-face {
+	font-family: "Work Sans";
+	src: url('assets/WorkSans_Regular');
+}
+
+* {
+	margin: 0px;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background: url("https://www.tesla.com/tesla_theme/assets/img/features/software/homepage-hero@2x.jpg?20160923") no-repeat center center fixed;
+	background-size: cover;
+}
+
+header {
+	position: absolute;
+	top: 10px;
+}
+
+header ul li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.header1 {
+	float: left;
+	font-size: 13px;
+}
+
+.header1 a {
+	text-decoration: none;
+	color: white;
+}
+
+.header2 a {
+	text-decoration: none;
+	color: white;
+	opacity: .5;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.header2 {
+	float: right;
+	font-size: 11px;
+	font-family: sans-serif;
+}
+
+.middivs {
+	font-family: sans-serif;
+	padding-top: 100px;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px;
+}
+
+.pev {
+	font-weight: lighter;
+	color: white;
+	font-size: 40px;
+}
+
+#learn {
+	font-family: Helvetica;
+	font-weight: lighter;
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(transparent 92%,rgba(255,255,255,0.5) 92%,rgba(255,255,255,0.5) 100%,transparent 100%);
+	&:hover {
+		background-image: linear-gradient(transparent 92%,rgba(255,255,255,0.5) 92%,rgba(255,255,255, 1) 100%,transparent 100%);
+	}
+}
+
+.buttons {
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+	border: none;
+	padding: 12px 25px;
+	font-size: 12px;
+	margin-right: 3px;
+	margin-left: 3px;
+
+	&:hover {
+		border: solid white 1px;
+		padding: 11px 24px;
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	font-family: helvetica;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	opacity: .7;
+}
+
+.foot {
+
+}
+
+.foot a {
+	font-family: sans-serif;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+	opacity: .7;
+}
